@@ -1,0 +1,52 @@
+/* * {
+  border: 1px solid red;
+} */
+
+header {
+  background-image: url("./images/pattern.jpeg");
+  background-position: center;
+  min-height: fit-content;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  color: khaki;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p a {
+  font-weight: bold;
+  color: blue;
+}
+
+.brushes {
+  background-color: mediumspringgreen;
+}
+
+.frames {
+  background-color: lightcoral;
+}
+
+.paint {
+  background-color: skyblue;
+}
+
+@media (min-width: 480px) {
+  header {
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+}
